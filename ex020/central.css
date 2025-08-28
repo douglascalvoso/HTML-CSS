@@ -1,0 +1,32 @@
+@charset "UTF-8"
+
+;body {
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    color: white;
+}
+
+.destaque{
+    background-color:rgb(27, 197, 64);
+    text-align: center;
+    color: white;
+}
+
+.basico{
+    text-align: center;
+    background-color:  rgb(197, 186, 27);
+    color: white;
+}
+
+.normal{
+    text-align: center;
+    background-color:  rgb(197, 27, 27);
+    color: white;
+}

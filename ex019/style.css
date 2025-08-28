@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    background-color:#AD36E0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color:#E0A936;
+}
+
+h1#principal {
+    text-align: center;
+    background-color:#E0A936;
+    color: white;
+}
+
+h2 {
+    color: #00E076;
+}
+
+.basico{
+    text-align: center;
+    color: rgb(245, 234, 86);
+}
+
+.intermediario {
+    text-align: center;
+    color: rgb(245, 86, 86);
+}
+
+.avancado {
+    text-align: center;
+    color: rgb(86, 181, 245);
+}
+
+p {
+    text-align: justify;
+}

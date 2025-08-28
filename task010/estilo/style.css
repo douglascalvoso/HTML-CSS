@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+QLD+Hand:wght@400..700&family=Noto+Sans+TC:wght@100..900&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url('.../pacote-projeto-d010/fontes/._idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --corclara: #ebe5c5;
+    --corleve: #83e1ad;
+    --corquase: #3ddc84;
+    --cormedia: #2fa866;
+    --corrinha: #1a5c37;
+    --corescura: #063d1e;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', sans-serif;
+    --fonte-android: 'Android', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--corclara);
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    background-color: var(--corrinha);
+}
+
+header > h1 {
+    color: white;
+    font-family: var(--fonte-destaque);
+}
+
+header > p {
+    color: white;
+}
+
+nav {
+    background-color: var(--corescura);
+}
+
+main {
+
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+}
+
+main h1 {
+    color: var(--corescura);
+    font-family: var(--fonte-destaque);
+}
+
+main h2 {
+    font-family: var(--fonte-destaque);
+}
+
+footer {
+    background-color: var(--corescura);
+    color: white;
+}
